@@ -4,11 +4,15 @@
 <head>
   <title>Movable Ink</title>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href= "src/app.css">
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <label for="zipcode">Enter a U.S. Zipcode: </label>
+    <input id="zipcode" type="number" minlength="5" required/>
+    <button type="submit">Submit</button>
+  </div>
 </body>
 <script src="src/app.js"></script>
-
 </html>
